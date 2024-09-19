@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_video_sections",
+  "info": {
+    "displayName": "VideoSection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "SectionDescription": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    },
+    "VideoList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.video-component"
+    }
+  }
+}

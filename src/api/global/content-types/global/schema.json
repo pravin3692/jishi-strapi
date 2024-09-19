@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FooterLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FooterWidgetOneLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link-tag"
+    },
+    "FooterWidgetTwoLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link-tag"
+    },
+    "FooterBottomText": {
+      "type": "text"
+    },
+    "HeaderLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.link-tag"
+    },
+    "ChatWithJishiLinkDesktop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link-tag"
+    },
+    "RequestAPIAccess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link-tag"
+    },
+    "ChatWithJishiLinkMobile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link-tag"
+    }
+  }
+}

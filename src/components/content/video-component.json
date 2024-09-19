@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_video_components",
+  "info": {
+    "displayName": "VideoComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "BgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    },
+    "VideoUrl": {
+      "type": "string"
+    }
+  }
+}

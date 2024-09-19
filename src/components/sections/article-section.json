@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_article_sections",
+  "info": {
+    "displayName": "ArticleSection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "SectionDescription": {
+      "type": "text"
+    },
+    "ArticleList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.article"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_content_icon_widgets",
+  "info": {
+    "displayName": "icon-widget",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WidgetId": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    }
+  }
+}

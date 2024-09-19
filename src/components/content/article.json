@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_articles",
+  "info": {
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    }
+  }
+}

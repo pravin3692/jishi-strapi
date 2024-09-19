@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_link_tags",
+  "info": {
+    "displayName": "LinkTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "LinkText": {
+      "type": "string"
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    },
+    "LinkIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

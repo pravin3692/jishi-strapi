@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_banner_sections",
+  "info": {
+    "displayName": "BannerSection"
+  },
+  "options": {},
+  "attributes": {
+    "BannerTitle": {
+      "type": "text"
+    },
+    "BannerSubtitle": {
+      "type": "text"
+    },
+    "BannerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "BannerButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link-tag"
+    },
+    "GiveJishiShotText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "JishiDifference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-component"
+    },
+    "BannerSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.banner-section"
+    },
+    "JishiIndustrySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.jishi-industry-section"
+    },
+    "TestimonialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimonial-section"
+    },
+    "ArticleComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.article-section"
+    },
+    "SocialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.social-section"
+    },
+    "SpeakUsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.speak-us-section"
+    },
+    "VideoSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.video-section"
+    },
+    "BuildWithJishi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.build-with-jishi"
+    },
+    "AboutJishi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-jishi"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.seo"
+    }
+  }
+}

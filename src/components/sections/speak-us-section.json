@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_speak_us_sections",
+  "info": {
+    "displayName": "SpeakUsSection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    },
+    "OpenInNewTab": {
+      "type": "boolean"
+    }
+  }
+}

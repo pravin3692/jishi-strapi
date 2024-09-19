@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_jishi_industry_sections",
+  "info": {
+    "displayName": "JishiIndustrySection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "TabList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.icon-widget"
+    }
+  }
+}

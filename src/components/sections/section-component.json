@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_content_section_components",
+  "info": {
+    "displayName": "JishiDifferenceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "SectionDescription": {
+      "type": "text"
+    },
+    "IconList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.icon-widget"
+    },
+    "SeeJishiIAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link-tag"
+    }
+  }
+}

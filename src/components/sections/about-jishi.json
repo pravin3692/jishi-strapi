@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_about_jishis",
+  "info": {
+    "displayName": "AboutJishi"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "text"
+    },
+    "SectionSubTitle": {
+      "type": "text"
+    },
+    "SectionDescription": {
+      "type": "text"
+    },
+    "BottomSectionTitle": {
+      "type": "text"
+    },
+    "ListItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content-widget"
+    }
+  }
+}

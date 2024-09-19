@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_content_tesitmonials",
+  "info": {
+    "displayName": "Tesitmonial"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    }
+  }
+}
