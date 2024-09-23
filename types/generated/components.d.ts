@@ -1,5 +1,108 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
+export interface ContentVideoComponent extends Schema.Component {
+  collectionName: 'components_content_video_components';
+  info: {
+    displayName: 'VideoComponent';
+    description: '';
+  };
+  attributes: {
+    Title: Attribute.String;
+    BgImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    VideoUrl: Attribute.String;
+    VideoMedia: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+  };
+}
+
+export interface ContentTesitmonial extends Schema.Component {
+  collectionName: 'components_content_tesitmonials';
+  info: {
+    displayName: 'Tesitmonial';
+  };
+  attributes: {
+    Title: Attribute.String;
+    Description: Attribute.Text;
+    Image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    Name: Attribute.String;
+    Position: Attribute.String;
+  };
+}
+
+export interface ContentSeo extends Schema.Component {
+  collectionName: 'components_content_seos';
+  info: {
+    displayName: 'SEO';
+  };
+  attributes: {
+    MetaTitle: Attribute.Text;
+    MetaDescription: Attribute.Text;
+    MetaImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    KeyWords: Attribute.Text;
+    MetaRobots: Attribute.Text;
+    CanonicalURL: Attribute.String;
+  };
+}
+
+export interface ContentLinkTag extends Schema.Component {
+  collectionName: 'components_content_link_tags';
+  info: {
+    displayName: 'LinkTag';
+    description: '';
+  };
+  attributes: {
+    LinkText: Attribute.String;
+    LinkUrl: Attribute.String;
+    OpenInNewTab: Attribute.Boolean;
+    LinkIcon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+  };
+}
+
+export interface ContentIconWidget extends Schema.Component {
+  collectionName: 'components_content_icon_widgets';
+  info: {
+    displayName: 'icon-widget';
+    description: '';
+  };
+  attributes: {
+    Title: Attribute.Text;
+    Description: Attribute.Text;
+    Icon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    WidgetId: Attribute.String;
+    ButtonText: Attribute.String;
+    ButtonUrl: Attribute.String;
+    OpenInNewTab: Attribute.Boolean;
+  };
+}
+
+export interface ContentContentWidget extends Schema.Component {
+  collectionName: 'components_content_content_widgets';
+  info: {
+    displayName: 'content-widget';
+  };
+  attributes: {
+    Title: Attribute.Text;
+    Description: Attribute.Text;
+    buttonText: Attribute.String;
+    buttonUrl: Attribute.String;
+  };
+}
+
+export interface ContentArticle extends Schema.Component {
+  collectionName: 'components_content_articles';
+  info: {
+    displayName: 'Article';
+    description: '';
+  };
+  attributes: {
+    Date: Attribute.String;
+    Title: Attribute.String;
+    Description: Attribute.Text;
+    ButtonText: Attribute.String;
+    ButtonUrl: Attribute.String;
+    OpenInNewTab: Attribute.Boolean;
+  };
+}
+
 export interface SectionsVideoSection extends Schema.Component {
   collectionName: 'components_sections_video_sections';
   info: {
@@ -136,112 +239,16 @@ export interface SectionsAboutJishi extends Schema.Component {
   };
 }
 
-export interface ContentVideoComponent extends Schema.Component {
-  collectionName: 'components_content_video_components';
-  info: {
-    displayName: 'VideoComponent';
-    description: '';
-  };
-  attributes: {
-    Title: Attribute.String;
-    BgImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    OpenInNewTab: Attribute.Boolean;
-    VideoUrl: Attribute.String;
-  };
-}
-
-export interface ContentTesitmonial extends Schema.Component {
-  collectionName: 'components_content_tesitmonials';
-  info: {
-    displayName: 'Tesitmonial';
-  };
-  attributes: {
-    Title: Attribute.String;
-    Description: Attribute.Text;
-    Image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    Name: Attribute.String;
-    Position: Attribute.String;
-  };
-}
-
-export interface ContentSeo extends Schema.Component {
-  collectionName: 'components_content_seos';
-  info: {
-    displayName: 'SEO';
-  };
-  attributes: {
-    MetaTitle: Attribute.Text;
-    MetaDescription: Attribute.Text;
-    MetaImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    KeyWords: Attribute.Text;
-    MetaRobots: Attribute.Text;
-    CanonicalURL: Attribute.String;
-  };
-}
-
-export interface ContentLinkTag extends Schema.Component {
-  collectionName: 'components_content_link_tags';
-  info: {
-    displayName: 'LinkTag';
-    description: '';
-  };
-  attributes: {
-    LinkText: Attribute.String;
-    LinkUrl: Attribute.String;
-    OpenInNewTab: Attribute.Boolean;
-    LinkIcon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-  };
-}
-
-export interface ContentIconWidget extends Schema.Component {
-  collectionName: 'components_content_icon_widgets';
-  info: {
-    displayName: 'icon-widget';
-    description: '';
-  };
-  attributes: {
-    Title: Attribute.Text;
-    Description: Attribute.Text;
-    Icon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    WidgetId: Attribute.String;
-    ButtonText: Attribute.String;
-    ButtonUrl: Attribute.String;
-    OpenInNewTab: Attribute.Boolean;
-  };
-}
-
-export interface ContentContentWidget extends Schema.Component {
-  collectionName: 'components_content_content_widgets';
-  info: {
-    displayName: 'content-widget';
-  };
-  attributes: {
-    Title: Attribute.Text;
-    Description: Attribute.Text;
-    buttonText: Attribute.String;
-    buttonUrl: Attribute.String;
-  };
-}
-
-export interface ContentArticle extends Schema.Component {
-  collectionName: 'components_content_articles';
-  info: {
-    displayName: 'Article';
-    description: '';
-  };
-  attributes: {
-    Date: Attribute.String;
-    Title: Attribute.String;
-    Description: Attribute.Text;
-    ButtonText: Attribute.String;
-    ButtonUrl: Attribute.String;
-    OpenInNewTab: Attribute.Boolean;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
+      'content.video-component': ContentVideoComponent;
+      'content.tesitmonial': ContentTesitmonial;
+      'content.seo': ContentSeo;
+      'content.link-tag': ContentLinkTag;
+      'content.icon-widget': ContentIconWidget;
+      'content.content-widget': ContentContentWidget;
+      'content.article': ContentArticle;
       'sections.video-section': SectionsVideoSection;
       'sections.testimonial-section': SectionsTestimonialSection;
       'sections.speak-us-section': SectionsSpeakUsSection;
@@ -252,13 +259,6 @@ declare module '@strapi/types' {
       'sections.banner-section': SectionsBannerSection;
       'sections.article-section': SectionsArticleSection;
       'sections.about-jishi': SectionsAboutJishi;
-      'content.video-component': ContentVideoComponent;
-      'content.tesitmonial': ContentTesitmonial;
-      'content.seo': ContentSeo;
-      'content.link-tag': ContentLinkTag;
-      'content.icon-widget': ContentIconWidget;
-      'content.content-widget': ContentContentWidget;
-      'content.article': ContentArticle;
     }
   }
 }

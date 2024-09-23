@@ -20,11 +20,19 @@
         "audios"
       ]
     },
-    "OpenInNewTab": {
-      "type": "boolean"
-    },
     "VideoUrl": {
       "type": "string"
+    },
+    "VideoMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
